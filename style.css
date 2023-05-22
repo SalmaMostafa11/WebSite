@@ -1,0 +1,228 @@
+/* general styles */
+body,
+* {
+    margin: 0;
+    outline: none;
+}
+
+/* fonts & colors */
+
+:root {
+    --mainColor: #DFAA5B;
+    --darkBrown: #957554;
+    --whiteColor: #FFFFFF;
+    --blackColor: #111111;
+}
+
+
+h1 {
+    font-family: "Segoe UI";
+    color: var(--whiteColor);
+    font-size: 70px;
+}
+
+h2,p,button , li {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+    font-size: 45px;
+    color: var(--darkBrown);
+    text-align: center;
+}
+
+h4 {
+    font-size: 40px;
+    color: var(--whiteColor)
+}
+
+/* spacing */
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+/* buttons */
+
+.button {
+    width: 200px;
+    Height: 50px;
+    border-radius: 10px;
+    background-color: var(--mainColor);
+    border: none;
+    color: var(--whiteColor);
+    font-size: 20px;
+    margin: 0px 6px;
+    text-align: center;
+}
+
+/* just for debugging */
+
+
+.child {
+    width: 45%;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-weight: 100px;
+}
+a{
+    color: var(--darkBrown);
+    text-decoration: none;
+}
+
+li {
+    padding: 30px;
+    
+
+}
+
+.image {
+    text-align: center;
+    padding: 34px;
+}
+
+.input {
+    background-color: var(--blackColor);
+    padding: 25px 0px;
+    justify-content: center;
+}
+
+.input input {
+    padding: 19px 17px;
+    border-radius: 10px;
+    border: none;
+    width: 192px;
+    margin: 0px 6px;
+}
+
+.home {
+    background-image: url("./homm.jpeg");
+     background-size: cover; 
+    height: 790px;
+    width: auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 106px;
+     padding: 150px ;
+    
+}
+
+.facilities {
+    
+    Height: 289px;
+    align-items: center;
+}
+
+ .consists{
+    
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+
+}
+
+h4 {
+    padding: 20px 0px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.rates {
+    margin-top: 45%;
+    text-align: center;
+
+}
+
+.room1 {
+    Width: 630px;
+    Height: 500px;
+    color: var(--whiteColor);
+    font-size: 40px;
+    background-image: url("./room1.png");
+    margin: 5px;
+}
+
+.room2 {
+    Width: 630px;
+    Height: 500px;
+    color: var(--whiteColor);
+    font-size: 40px;
+    background-image: url("./room2.png");
+    margin: 5px ;
+}
+
+.room3 {
+    Width: 630px;
+    Height: 500px;
+    color: var(--whiteColor);
+    font-size: 40px;
+    background-image: url("./room3.png");
+    margin: 5px;
+}
+
+.room4 {
+    Width: 630px;
+    Height: 500px;
+    color: var(--whiteColor);
+    font-size: 40px;
+    background-image: url("./room4.png");
+    margin: 5px;
+}
+
+.rooms {
+    justify-content: space-around;
+    
+
+}
+
+.footer {
+    display: block;
+    background-color: var(--blackColor);
+    color: var(--whiteColor);
+    display: flex;
+    justify-content: space-around;
+    padding: 200px;
+}
+
+.book {
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.center {
+    text-align: center;
+}
+
+.content {
+    padding: 15px;
+    font-weight: 30px;
+    font-size: larger;
+}
+
+.email {
+    padding: 19px 17px;
+    border-radius: 10px;
+    border: none;
+    width: 165px;
+    height: 15px;
+    margin: 10px 6px;
+    display: block;
+}
+.margin{
+    margin: 60px;
+}
